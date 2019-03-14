@@ -2181,7 +2181,7 @@
     font-weight: 400;
     font-size: 1rem;
   }
-  header .container .content a {
+  header .container .content a#buttonpodrobnee {
     position: relative;
     left: 0;
     text-decoration: none;
@@ -2190,8 +2190,8 @@
     height: 100%;
     padding-top: 2%;
   }
-  header .container .content a:hover,
-  header .container .content a:focus {
+  header .container .content a#buttonpodrobnee:hover,
+  header .container .content a#buttonpodrobnee:focus {
     color: #fff;
   }
   header .container .content a#buttonsilka {
