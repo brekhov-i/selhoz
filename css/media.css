@@ -2210,7 +2210,7 @@
   header .container .content button a:focus {
     color: #fff;
   }
-  header .container .content a {
+  header .container .content a#buttonsilka {
     position: relative;
     bottom: 0;
     left: 20px;
@@ -2221,7 +2221,7 @@
     font-weight: 400;
     margin: 0 !important;
   }
-  header .container .content a i {
+  header .container .content a#buttonsilka i {
     font-size: 1rem;
     text-decoration: none;
   }
