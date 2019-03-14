@@ -12,7 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 22, style.less */
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -40,63 +39,44 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-/* line 57, style.less */
 html {
   font-size: 20px;
 }
-/* line 60, style.less */
 body {
   margin: 0;
   padding: 0;
 }
-/* line 64, style.less */
 button {
   border: 0 !important;
   outline: none !important;
 }
-/* line 68, style.less */
 button:active {
   background: #dceaf7 !important;
   color: #126fc2 !important;
 }
-/* line 74, style.less */
 button a:active {
   color: #126fc2 !important;
 }
-/* line 80, style.less */
 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 }
-/* line 87, style.less */
 header {
   height: 450px;
   max-height: 450px;
   min-height: 430px;
   background: url(../img/header.png);
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-/* line 101, style.less */
 header .container .navbar a.navbar-brand {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 0.8rem;
 }
-/* line 107, style.less */
 header .container .content {
   margin-left: 3%;
   color: #fff;
@@ -104,47 +84,32 @@ header .container .content {
   height: 300px;
   max-height: 350px;
   min-height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
-/* line 119, style.less */
 header .container .content h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
 }
-/* line 124, style.less */
 header .container .content h3 {
   margin-top: 1%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
 }
-/* line 130, style.less */
 header .container .content h2 {
   margin-top: 1.5%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
-/* line 136, style.less */
 header .container .content a#buttonpodrobnee {
   margin-top: 3%;
   height: 40px !important;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 30px;
-          flex: 0 0 30px;
+  flex: 0 0 30px;
   border-radius: 100px;
   font-size: 0.8rem;
   background: #126fc2;
@@ -155,12 +120,10 @@ header .container .content a#buttonpodrobnee {
   outline: none;
   text-decoration: none;
 }
-/* line 150, style.less */
 header .container .content a#buttonpodrobnee:active {
   background: #dceaf7 !important;
   color: #126fc2 !important;
 }
-/* line 156, style.less */
 header .container .content a#buttonsilka {
   position: absolute;
   bottom: 0;
@@ -170,210 +133,120 @@ header .container .content a#buttonsilka {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-/* line 167, style.less */
 header .container .content a#buttonsilka:focus {
   cursor: pointer;
 }
-/* line 171, style.less */
 header .container .content a#buttonsilka i {
   font-size: 0.8rem;
   text-decoration: none !important;
 }
-/* line 179, style.less */
 .calc {
   height: 100vh;
   max-height: 700px;
   min-height: 650px;
   padding-top: 5vh;
 }
-/* line 187, style.less */
 .calc .container .calc-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: 40vh;
   max-height: 300px;
   min-height: 250px;
 }
-/* line 196, style.less */
 .calc .container .calc-content .block1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
-/* line 203, style.less */
 .calc .container .calc-content .block1 .circle1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   border-radius: 30px;
   background: #126fc2;
 }
-/* line 213, style.less */
 .calc .container .calc-content .block1 .circle1 img {
   margin-left: 6px;
   margin-bottom: 2px;
 }
-/* line 218, style.less */
 .calc .container .calc-content .block1 p {
   margin-top: 5%;
   font-size: 0.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-/* line 225, style.less */
 .calc .container .calc-content .block2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
-/* line 232, style.less */
 .calc .container .calc-content .block2 .circle2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   border-radius: 30px;
   background: #126fc2;
 }
-/* line 242, style.less */
 .calc .container .calc-content .block2 .circle2 img {
   margin-left: 2px;
   margin-bottom: 2px;
 }
-/* line 247, style.less */
 .calc .container .calc-content .block2 p {
   margin-top: 5%;
   font-size: 0.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-/* line 254, style.less */
 .calc .container .calc-content .block3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
-/* line 261, style.less */
 .calc .container .calc-content .block3 .circle3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   border-radius: 30px;
   background: #126fc2;
 }
-/* line 271, style.less */
 .calc .container .calc-content .block3 .circle3 img {
   margin-left: 6px;
   margin-bottom: 2px;
 }
-/* line 276, style.less */
 .calc .container .calc-content .block3 p {
   margin-top: 5%;
   font-size: 0.8rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-/* line 284, style.less */
 .calc .container .calculator {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   height: 50vh;
   max-height: 500px;
   min-height: 450px;
   margin-top: 8vh;
 }
-/* line 293, style.less */
 .calc .container .calculator h1 {
   font-size: 1.9rem;
   font-family: 'Montserrat', sans-serif;
@@ -381,157 +254,107 @@ header .container .content a#buttonsilka i {
   height: 13vh;
   line-height: 30px;
 }
-/* line 300, style.less */
 .calc .container .calculator h1 span {
   margin-top: -1vh;
   font-size: 0.8rem;
   font-weight: 300;
 }
-/* line 306, style.less */
 .calc .container .calculator .block-calc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
   height: 30vh;
   /* max-height: 550px;
 				min-height: 500px; */
   margin-top: 5vh;
 }
-/* line 317, style.less */
 .calc .container .calculator .block-calc .block-polzunok {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 20vh;
   margin-top: 5vh;
 }
-/* line 325, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit {
   height: 5vh;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 10vh;
-          flex: 0 0 10vh;
+  flex: 0 0 10vh;
 }
-/* line 329, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit label {
   padding: 0;
   padding-left: 15px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-/* line 335, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit label p {
   margin: 0;
 }
-/* line 338, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit label p small {
   font-family: 'ALSRubl', sans-serif;
   font-weight: 300;
 }
-/* line 345, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit .range-bar {
   background-color: #b7d4ef;
 }
-/* line 348, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit .range-max,
 .calc .container .calculator .block-calc .block-polzunok .summakredit .range-min {
   display: none;
 }
-/* line 351, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit .kredit {
   margin-top: 2vh;
 }
-/* line 354, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit .kredit .range-handle {
   height: 20px;
   width: 20px;
   top: -9px;
   background: #126fc2;
 }
-/* line 360, style.less */
 .calc .container .calculator .block-calc .block-polzunok .summakredit .kredit .range-quantity {
   background: #126fc2;
 }
-/* line 365, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit {
   height: 10vh;
   margin-top: 0vh;
 }
-/* line 369, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit label {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-/* line 375, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit label p {
   margin: 0;
 }
-/* line 379, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .range-bar {
   background-color: #b7d4ef;
 }
-/* line 382, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .range-max,
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .range-min {
   display: none;
 }
-/* line 385, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .srok {
   margin-top: 3vh;
 }
-/* line 388, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .srok .range-handle {
   height: 20px;
   width: 20px;
   top: -9px;
   background: #126fc2;
 }
-/* line 394, style.less */
 .calc .container .calculator .block-calc .block-polzunok .srokkredit .srok .range-quantity {
   background: #126fc2;
 }
-/* line 400, style.less */
 .calc .container .calculator .block-calc .block-summa {
   background: #fbfbfb;
-  -webkit-box-shadow: 0px 5px 10px #ebf0f5;
-          box-shadow: 0px 5px 10px #ebf0f5;
+  box-shadow: 0px 5px 10px #ebf0f5;
   border-radius: 20px;
   height: 22vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-/* line 410, style.less */
 .calc .container .calculator .block-calc .block-summa .cicle {
   position: absolute;
   right: -8%;
@@ -542,40 +365,30 @@ header .container .content a#buttonsilka i {
   background: #126fc2;
   color: #fff;
   font-size: 0.8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-/* line 427, style.less */
 .calc .container .calculator .block-calc .block-summa .cicle p {
   margin-top: 2vh	;
   line-height: 20px;
   margin-bottom: 0;
 }
-/* line 433, style.less */
 .calc .container .calculator .block-calc .block-summa p {
   margin-top: 3vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   margin-bottom: 0;
 }
-/* line 439, style.less */
 .calc .container .calculator .block-calc .block-summa .result {
   margin-top: 0vh;
   height: 30px;
   width: 200px;
   z-index: 10;
 }
-/* line 445, style.less */
 .calc .container .calculator .block-calc .block-summa .result p {
   margin: 0;
   color: #000;
@@ -583,12 +396,10 @@ header .container .content a#buttonsilka i {
   font-weight: 400;
   font-size: 1.5rem;
 }
-/* line 452, style.less */
 .calc .container .calculator .block-calc .block-summa .result p span {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
-/* line 458, style.less */
 .calc .container .calculator .block-calc .block-summa a#buttonkredit {
   position: absolute;
   background: #126fc2;
@@ -604,78 +415,47 @@ header .container .content a#buttonsilka i {
   padding: 0;
   text-decoration: none;
 }
-/* line 474, style.less */
 .calc .container .calculator .block-calc .block-summa a#buttonkredit:active {
   background: #dceaf7 !important;
   color: #126fc2 !important;
 }
-/* line 485, style.less */
 .contactform {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   height: 55vh;
   max-height: 450px;
   min-height: 400px;
 }
-/* line 494, style.less */
 .contactform .container h1 {
   font-size: 1.7rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   height: 15vh;
 }
-/* line 500, style.less */
 .contactform .container h1 span {
   font-size: 0.9rem;
   font-weight: 300;
 }
-/* line 505, style.less */
 .contactform .container .form-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 7vh;
 }
-/* line 510, style.less */
 .contactform .container .form-content .block1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/* line 516, style.less */
 .contactform .container .form-content .block1 .circle1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   background: #dceaf7;
   border-radius: 100px;
 }
-/* line 525, style.less */
 .contactform .container .form-content .block1 .circle1 p {
   font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
@@ -683,7 +463,6 @@ header .container .content a#buttonsilka i {
   color: #126fc2;
   margin: 0;
 }
-/* line 534, style.less */
 .contactform .container .form-content .block1 p {
   font-size: 0.7rem;
   font-family: 'Montserrat', sans-serif;
@@ -691,39 +470,21 @@ header .container .content a#buttonsilka i {
   margin-left: 3%;
   margin-bottom: 0;
 }
-/* line 542, style.less */
 .contactform .container .form-content .block2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/* line 548, style.less */
 .contactform .container .form-content .block2 .circle2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   background: #dceaf7;
   border-radius: 100px;
 }
-/* line 557, style.less */
 .contactform .container .form-content .block2 .circle2 p {
   font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
@@ -731,7 +492,6 @@ header .container .content a#buttonsilka i {
   color: #126fc2;
   margin: 0;
 }
-/* line 566, style.less */
 .contactform .container .form-content .block2 p {
   font-size: 0.7rem;
   font-family: 'Montserrat', sans-serif;
@@ -739,39 +499,21 @@ header .container .content a#buttonsilka i {
   margin-left: 3%;
   margin-bottom: 0;
 }
-/* line 574, style.less */
 .contactform .container .form-content .block3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-/* line 580, style.less */
 .contactform .container .form-content .block3 .circle3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 60px;
   width: 60px;
   background: #dceaf7;
   border-radius: 100px;
 }
-/* line 589, style.less */
 .contactform .container .form-content .block3 .circle3 p {
   font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
@@ -779,7 +521,6 @@ header .container .content a#buttonsilka i {
   color: #126fc2;
   margin: 0;
 }
-/* line 598, style.less */
 .contactform .container .form-content .block3 p {
   font-size: 0.7rem;
   font-family: 'Montserrat', sans-serif;
@@ -787,30 +528,16 @@ header .container .content a#buttonsilka i {
   margin-left: 3%;
   margin-bottom: 0;
 }
-/* line 607, style.less */
 .contactform .container .formcontact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 30vh;
 }
-/* line 613, style.less */
 .contactform .container .formcontact form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-/* line 619, style.less */
 .contactform .container .formcontact form .field-block input {
   border: 2px solid #bcd7f0;
   background: #fff;
@@ -818,7 +545,6 @@ header .container .content a#buttonsilka i {
   height: 45px;
   outline: none;
 }
-/* line 627, style.less */
 .contactform .container .formcontact form button {
   height: 45px;
   background: #126fc2;
@@ -828,22 +554,14 @@ header .container .content a#buttonsilka i {
   color: #fff;
   max-width: 230px;
 }
-/* line 640, style.less */
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 30vh;
   max-height: 250px;
   min-height: 200px;
 }
-/* line 651, style.less */
 footer .container p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;

@@ -12,8 +12,12 @@
     min-height: 430px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
@@ -27,10 +31,19 @@
     height: 300px;
     max-height: 350px;
     min-height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .content h1 {
     font-family: 'Montserrat', sans-serif;
@@ -52,7 +65,9 @@
   header .container .content button {
     margin-top: 3%;
     height: 40px !important;
-    flex: 0 0 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -93,26 +108,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 40vh;
     max-height: 300px;
     min-height: 250px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -129,17 +171,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -156,17 +216,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -183,9 +261,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50vh;
     max-height: 400px;
     min-height: 350px;
@@ -202,20 +287,38 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     height: 30vh;
     max-height: 300px;
     min-height: 250px;
     margin-top: 5vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 20vh;
     min-height: 200px;
     max-height: 200px;
@@ -223,7 +326,9 @@
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -281,15 +386,23 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 15vh;
     max-height: 180px;
     min-height: 160px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -301,9 +414,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -344,6 +463,7 @@
     bottom: 10px;
     left: 70px;
     outline: none;
+    -webkit-transition: 3s;
     transition: 3s;
   }
   .calc .container .calculator .block-calc .block-summa button a {
@@ -355,8 +475,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 55vh;
     max-height: 350px;
     min-height: 350px;
@@ -372,20 +496,39 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-top: 4vh;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -406,15 +549,30 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -435,15 +593,30 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -464,9 +637,15 @@
     margin-bottom: 0;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 20vh;
   }
   .contactform .container .formcontact form .field-block input {
@@ -485,9 +664,15 @@
     max-width: 230px;
   }
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     max-height: 150px;
     min-height: 100px;
@@ -514,8 +699,12 @@
     min-height: 430px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
@@ -529,10 +718,19 @@
     height: 300px;
     max-height: 350px;
     min-height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: left;
   }
   header .container .content h1 {
@@ -556,7 +754,9 @@
   header .container .content button {
     margin-top: 3%;
     height: 40px !important;
-    flex: 0 0 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -597,26 +797,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 40vh;
     max-height: 300px;
     min-height: 250px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -633,17 +860,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -660,17 +905,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -687,9 +950,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50vh;
     max-height: 400px;
     min-height: 350px;
@@ -706,20 +976,38 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     height: 30vh;
     max-height: 300px;
     min-height: 250px;
     margin-top: 5vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 20vh;
     min-height: 200px;
     max-height: 200px;
@@ -727,7 +1015,9 @@
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -785,15 +1075,23 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 15vh;
     max-height: 180px;
     min-height: 160px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -805,9 +1103,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -858,8 +1162,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 55vh;
     max-height: 400px;
     min-height: 390px;
@@ -875,20 +1183,39 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-top: 4vh;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -909,15 +1236,30 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -938,15 +1280,30 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -967,16 +1324,31 @@
     margin-bottom: 0;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 25vh;
   }
   .contactform .container .formcontact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .formcontact form .field-block {
     margin-bottom: 2vh;
@@ -997,9 +1369,15 @@
     max-width: 230px;
   }
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     max-height: 150px;
     min-height: 100px;
@@ -1026,8 +1404,12 @@
     min-height: 370px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar a.navbar-brand {
     font-family: 'Montserrat', sans-serif;
@@ -1042,10 +1424,19 @@
     height: 300px;
     max-height: 250px;
     min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: left;
   }
   header .container .content h1 {
@@ -1069,7 +1460,9 @@
   header .container .content button {
     margin-top: 3%;
     height: 40px !important;
-    flex: 0 0 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -1110,26 +1503,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 40vh;
     max-height: 300px;
     min-height: 250px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1146,17 +1566,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1173,17 +1611,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1200,9 +1656,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50vh;
     max-height: 500px;
     min-height: 350px;
@@ -1219,20 +1682,38 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     height: 30vh;
     max-height: 400px;
     min-height: 250px;
     margin-top: 5vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 20vh;
     min-height: 200px;
     max-height: 200px;
@@ -1240,7 +1721,9 @@
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -1298,15 +1781,23 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 15vh;
     max-height: 100px;
     min-height: 150px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -1318,9 +1809,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -1371,8 +1868,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     height: 100vh;
     max-height: 800px;
     min-height: 790px;
@@ -1388,22 +1889,44 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-top: 4vh;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 5vh;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -1425,16 +1948,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 5vh;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -1456,16 +1994,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 5vh;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     background: #dceaf7;
@@ -1487,16 +2040,31 @@
     margin-bottom: 0;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 25vh;
   }
   .contactform .container .formcontact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .formcontact form .field-block {
     margin-bottom: 2vh;
@@ -1517,9 +2085,15 @@
     max-width: 370px;
   }
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     max-height: 150px;
     min-height: 100px;
@@ -1546,12 +2120,20 @@
     min-height: 330px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 3vh;
   }
   header .container .navbar a.navbar-brand {
@@ -1567,10 +2149,19 @@
     height: 230px;
     max-height: 230px;
     min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header .container .content h1 {
     font-family: 'Montserrat', sans-serif;
@@ -1591,9 +2182,12 @@
     font-size: 1rem;
   }
   header .container .content button {
+    float: left;
     margin-top: 3%;
     height: 40px !important;
-    flex: 0 0 35px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 35px;
+            flex: 0 0 35px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -1617,7 +2211,7 @@
     color: #fff;
   }
   header .container .content a {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 20px;
     width: 100%;
@@ -1638,26 +2232,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     max-height: 250px;
     min-height: 200px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1674,18 +2295,36 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
-    margin-top: 4%;
+    margin-top: 0%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1702,17 +2341,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 60px;
     width: 60px;
     border-radius: 30px;
@@ -1729,9 +2386,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 40vh;
     max-height: 500px;
     min-height: 450px;
@@ -1749,25 +2413,47 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 8vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 10vh;
-    flex: 0 0 20vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20vh;
+            flex: 0 0 20vh;
     margin-top: 0vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -1797,7 +2483,9 @@
   .calc .container .calculator .block-calc .block-polzunok .srokkredit {
     height: 10vh;
     margin-top: 0vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .srokkredit label {
     padding: 0;
@@ -1826,14 +2514,24 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 10vh;
-    flex: 0 0 20vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20vh;
+            flex: 0 0 20vh;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -1845,9 +2543,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -1888,6 +2592,7 @@
     bottom: 10px;
     left: 70px;
     outline: none;
+    -webkit-transition: 3s;
     transition: 3s;
     height: 35px;
   }
@@ -1902,8 +2607,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 95vh;
     max-height: 900px;
     min-height: 850px;
@@ -1919,23 +2628,47 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 0vh;
     margin-right: 0;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -1957,16 +2690,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -1988,16 +2736,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -2019,16 +2782,27 @@
     margin-top: 2vh;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 10vh;
   }
   .contactform .container .formcontact form .field-block {
     height: 1vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .contactform .container .formcontact form .field-block input {
     border: 2px solid #bcd7f0;
@@ -2044,7 +2818,9 @@
     border-color: #126fc2;
     color: #fff;
     max-width: 350px;
-    flex: 0 0 40px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
   }
 }
 @media screen and (max-width: 380px) {
@@ -2061,12 +2837,20 @@
     min-height: 330px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 3vh;
   }
   header .container .navbar a.navbar-brand {
@@ -2082,10 +2866,19 @@
     height: 230px;
     max-height: 230px;
     min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header .container .content h1 {
     font-family: 'Montserrat', sans-serif;
@@ -2108,7 +2901,9 @@
   header .container .content button {
     margin-top: 3%;
     height: 30px !important;
-    flex: 0 0 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -2152,26 +2947,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 10vh;
     max-height: 200px;
     min-height: 150px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2189,17 +3011,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2217,17 +3057,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2245,9 +3103,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50vh;
     max-height: 500px;
     min-height: 550px;
@@ -2265,25 +3130,47 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 0vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 10vh;
-    flex: 0 0 20vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20vh;
+            flex: 0 0 20vh;
     margin-top: 0vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -2313,7 +3200,9 @@
   .calc .container .calculator .block-calc .block-polzunok .srokkredit {
     height: 10vh;
     margin-top: 0vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .srokkredit label {
     padding: 0;
@@ -2342,15 +3231,23 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 2vh;
     max-height: 150px;
     min-height: 130px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -2362,9 +3259,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -2405,6 +3308,7 @@
     bottom: 10px;
     left: 70px;
     outline: none;
+    -webkit-transition: 3s;
     transition: 3s;
     height: 35px;
   }
@@ -2419,8 +3323,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 90vh;
     max-height: 850px;
     min-height: 800px;
@@ -2436,23 +3344,47 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 0vh;
     margin-right: 0;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -2474,16 +3406,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -2505,16 +3452,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -2536,22 +3498,42 @@
     margin-top: 2vh;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 5vh;
   }
   .contactform .container .formcontact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .formcontact form .field-block {
     height: 1vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .contactform .container .formcontact form .field-block input {
     border: 2px solid #bcd7f0;
@@ -2567,7 +3549,9 @@
     border-color: #126fc2;
     color: #fff;
     max-width: 280px;
-    flex: 0 0 7vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 7vh;
+            flex: 0 0 7vh;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2584,12 +3568,20 @@
     min-height: 330px;
     background: url(../img/header.png);
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   header .container .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 3vh;
   }
   header .container .navbar a.navbar-brand {
@@ -2605,10 +3597,19 @@
     height: 230px;
     max-height: 230px;
     min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header .container .content h1 {
     font-family: 'Montserrat', sans-serif;
@@ -2631,7 +3632,9 @@
   header .container .content button {
     margin-top: 3%;
     height: 30px !important;
-    flex: 0 0 30px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+            flex: 0 0 30px;
     border-radius: 100px;
     font-size: 0.8rem;
     background: #126fc2;
@@ -2675,26 +3678,53 @@
     padding-top: 0vh;
   }
   .calc .container .calc-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 10vh;
     max-height: 200px;
     min-height: 150px;
   }
   .calc .container .calc-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2712,17 +3742,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2740,17 +3788,35 @@
     font-weight: 300;
   }
   .calc .container .calc-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 80%;
   }
   .calc .container .calc-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 30px;
@@ -2768,9 +3834,16 @@
     font-weight: 300;
   }
   .calc .container .calculator {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 50vh;
     max-height: 500px;
     min-height: 550px;
@@ -2788,25 +3861,47 @@
     font-weight: 300;
   }
   .calc .container .calculator .block-calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 0vh;
   }
   .calc .container .calculator .block-calc .block-polzunok {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 10vh;
-    flex: 0 0 20vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20vh;
+            flex: 0 0 20vh;
     margin-top: 0vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit {
     height: 5vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .summakredit label {
     padding: 0;
@@ -2836,7 +3931,9 @@
   .calc .container .calculator .block-calc .block-polzunok .srokkredit {
     height: 10vh;
     margin-top: 0vh;
-    flex: 0 0 10vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10vh;
+            flex: 0 0 10vh;
   }
   .calc .container .calculator .block-calc .block-polzunok .srokkredit label {
     padding: 0;
@@ -2865,15 +3962,23 @@
   }
   .calc .container .calculator .block-calc .block-summa {
     background: #fbfbfb;
-    box-shadow: 0px 5px 10px #ebf0f5;
+    -webkit-box-shadow: 0px 5px 10px #ebf0f5;
+            box-shadow: 0px 5px 10px #ebf0f5;
     border-radius: 20px;
     height: 2vh;
     max-height: 150px;
     min-height: 130px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .calc .container .calculator .block-calc .block-summa .cicle {
     position: absolute;
@@ -2885,9 +3990,15 @@
     background: #126fc2;
     color: #fff;
     font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -2943,8 +4054,12 @@
     color: #fff;
   }
   .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 90vh;
     max-height: 850px;
     min-height: 800px;
@@ -2960,23 +4075,47 @@
     font-weight: 300;
   }
   .contactform .container .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 0vh;
     margin-right: 0;
   }
   .contactform .container .form-content .block1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .form-content .block1 .circle1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -2998,16 +4137,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block2 .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -3029,16 +4183,31 @@
     margin-bottom: 0;
   }
   .contactform .container .form-content .block3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 1vh;
   }
   .contactform .container .form-content .block3 .circle3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 70px;
     width: 70px;
     background: #dceaf7;
@@ -3060,22 +4229,42 @@
     margin-top: 2vh;
   }
   .contactform .container .formcontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 30vh;
     margin-top: 5vh;
   }
   .contactform .container .formcontact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contactform .container .formcontact form .field-block {
     height: 1vh;
-    flex: 0 0 8vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 8vh;
+            flex: 0 0 8vh;
   }
   .contactform .container .formcontact form .field-block input {
     border: 2px solid #bcd7f0;
@@ -3091,6 +4280,8 @@
     border-color: #126fc2;
     color: #fff;
     max-width: 280px;
-    flex: 0 0 7vh;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 7vh;
+            flex: 0 0 7vh;
   }
 }
