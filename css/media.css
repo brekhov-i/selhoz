@@ -2211,7 +2211,7 @@
     color: #fff;
   }
   header .container .content a {
-    position: relative;
+    position: relative !important;
     bottom: 0;
     left: 20px;
     width: 100%;
