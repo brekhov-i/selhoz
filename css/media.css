@@ -2182,6 +2182,7 @@
     font-size: 1rem;
   }
   header .container .content button {
+    position: relative;
     float: left;
     margin-top: 3%;
     height: 40px !important;
