@@ -2186,9 +2186,12 @@
     left: 0;
     text-decoration: none;
     color: #fff;
-    margin-top: 0;
-    height: 100%;
-    padding-top: 2%;
+    margin-top: 10px;
+    height: 25px !important;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    padding-top: 0;
   }
   header .container .content a#buttonpodrobnee:hover,
   header .container .content a#buttonpodrobnee:focus {
@@ -2203,10 +2206,11 @@
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    margin: 0 !important;
+    margin: 10px 0 !important;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
+    padding: 0 !important;
   }
   header .container .content a#buttonsilka i {
     font-size: 1rem;
@@ -2524,8 +2528,8 @@
     position: absolute;
     right: -8%;
     top: -25%;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     background: #126fc2;
     color: #fff;
@@ -2799,15 +2803,15 @@
     outline: none;
   }
   .contactform .container .formcontact form button {
-    height: 45px;
+    height: 35px;
     background: #126fc2;
     border-radius: 30px;
     border-color: #126fc2;
     color: #fff;
-    max-width: 350px;
+    max-width: 300px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 40px;
-            flex: 0 0 40px;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
   }
 }
 @media screen and (max-width: 380px) {
@@ -3038,6 +3042,7 @@
     width: 50%;
   }
   .calc .container .calc-content .block2 p {
+    margin: 0;
     margin-top: 5%;
     font-size: 0.7rem;
     font-family: 'Montserrat', sans-serif;
@@ -3240,8 +3245,8 @@
     position: absolute;
     right: -8%;
     top: -25%;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 100px;
     background: #126fc2;
     color: #fff;
@@ -3283,7 +3288,7 @@
     font-weight: 400;
     font-size: 1.5rem;
   }
-  .calc .container .calculator .block-calc .block-summa button {
+  .calc .container .calculator .block-calc .block-summa a {
     position: absolute;
     background: #126fc2;
     border-color: #126fc2;
@@ -3295,18 +3300,16 @@
     bottom: 10px;
     left: 70px;
     outline: none;
-    -webkit-transition: 3s;
-    transition: 3s;
-    height: 35px;
+    height: 20px;
   }
-  .calc .container .calculator .block-calc .block-summa button a {
+  .calc .container .calculator .block-calc .block-summa a a {
     text-decoration: none;
     color: #fff;
     height: 100%;
     width: 100%;
   }
-  .calc .container .calculator .block-calc .block-summa button a:hover,
-  .calc .container .calculator .block-calc .block-summa button a:focus {
+  .calc .container .calculator .block-calc .block-summa a a:hover,
+  .calc .container .calculator .block-calc .block-summa a a:focus {
     color: #fff;
   }
   .contactform {
@@ -3517,28 +3520,28 @@
             align-items: center;
   }
   .contactform .container .formcontact form .field-block {
-    height: 1vh;
+    height: 50px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 8vh;
-            flex: 0 0 8vh;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
   }
   .contactform .container .formcontact form .field-block input {
     border: 2px solid #bcd7f0;
     background: #fff;
     border-radius: 30px;
-    height: 45px;
+    height: 40px;
     outline: none;
   }
   .contactform .container .formcontact form button {
-    height: 45px;
+    height: 30px;
     background: #126fc2;
     border-radius: 30px;
     border-color: #126fc2;
     color: #fff;
-    max-width: 280px;
+    max-width: 250px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 7vh;
-            flex: 0 0 7vh;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
   }
 }
 @media screen and (max-width: 320px) {
